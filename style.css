@@ -67,8 +67,10 @@ nav {
 }
 
 .logo{
-    max-width: 106px;
-    max-height: 106px;
+  position:initial;
+  width: 131px;
+  height: 131px;
+  
 }
 
 .nav__links {
@@ -326,7 +328,6 @@ color: #198593;
  display: flex;
   align-items: center;
   justify-content: center;
-position: absolute;
 width: 671px;
 height: 100px;
 font-family: "Helvetica Neue";
