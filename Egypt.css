@@ -133,9 +133,9 @@ align-items: flex-start;
   color: #198593;
 }
 
-.f1{
-  position: absolute;
-  top: 200vw;
+.footer{
+  position: relative;
+  top: 35vw;
   width: 98vw;
   height: 11.7vw;
   border-color:white;
@@ -149,7 +149,6 @@ align-items: flex-start;
   position:absolute;
   width: 5.8vw;
   left: 1 vw;
-  top: 200.5vw;
   opacity: 1;
 }
 
@@ -157,7 +156,6 @@ align-items: flex-start;
 .para5{
   position: absolute;
   width: 9.5vw;
-  top: 200.7vw;
   left:6vw;
   font-size: 1.5vw;
   color:#198593
@@ -172,7 +170,7 @@ align-items: flex-start;
   font-style: normal;
   text-align: left;
   color: #198593;
-  top: 210vw;
+  top: 4.2vw;
   left:30vw;
   opacity: 1;
 }
@@ -185,26 +183,31 @@ align-items: flex-start;
   font-style: normal;
   text-align: left;
   color: #198593;
-  top: 200.6vw;
-  right: 2vw;
+   right: 2vw;
   opacity: 1;
 }
 
 .ver{
   position: absolute;
   width: 90vw;
-  height: 75px;
+  height: 40px;
   font-size: 1.1vw;
   font-weight: 82vw;
   font-style: normal;
   text-align: left;
   color: #198593;
-  top: 215vw;
+  top: 7.8vw;
   left: 1vw;
   opacity: 1;
 }
-@media (min-width: 640px) {
+@media (min-width: 1240px) {
 .header {
   display: flex;
 }
+
+.footer{
+  display: flex;
+}
+
+
 }

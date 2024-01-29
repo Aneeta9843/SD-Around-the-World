@@ -143,9 +143,8 @@
   }
 
   
-.f1{
-  position: absolute;
-  top: 433vw;
+.footer{
+  position: relative;
   width: 98vw;
   height: 11.7vw;
   border-color:white;
@@ -153,106 +152,70 @@
   border-style: dashed;
   background-color: #F4F2F2;
   opacity: 1;
+  margin-top: 5vw;
 }
   
-  .logo1{
-    position:absolute;
-    width: 5.8vw;
-    left: 1.2vw;
-    top: 432.3vw;
-    opacity: 1;
-  }
-
-  .para5{
-    position: absolute;
-    width: 9.5vw;
-    top: 433.3vw;
-    left:7vw;
-    font-size: 1.5vw;
-    color:#198593
-  }
-
-  .terms{
-    position: absolute;
-    width: 30vw;
-    height: 4.2vw;
-    text-align: left;
-    color: #198593;
-    top: 437vw;
-    left:30vw
-  }
-
-  .trip{
-    position: absolute;
-    width: 25vw;
-    text-align: left;
-    color: #198593;
-    top: 433.2vw;
-    right: 2vw;
-    
-  }
-
-  .ver{
-    position: absolute;
-    width: 81vw;
-    text-align: left;
-    color: #198593;
-    top: 442vw;
-    left: 1.2vw;
-  }
-  
-@media (min-width: 640px) {
-  .header {
-    display: flex;
-  }
-
-  .travel {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-  }
-
-  .places{
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .card {
-    gap: 0;
-  }
-
-  .card i {
-    font-size: 1.75rem;
-  }
-
-  .card h4 {
-    font-size: 1rem;
-  }
-
-  .card p {
-    font-size: 0.7rem;
-  }
+.logo1{
+  position:absolute;
+  width: 5.8vw;
+  left: 1 vw;
+  opacity: 1;
 }
 
 
-@media (min-width: 1024px) {
-  .card {
-    gap: 1rem;
-  }
-
-  .card i {
-    font-size: 3rem;
-  }
-
-  .display__card h4 {
-    font-size: 1.5rem;
-  }
-
-  .card p {
-    font-size: 1rem;
-  }
+.para5{
+  position: absolute;
+  width: 9.5vw;
+  left:6vw;
+  font-size: 1.5vw;
+  color:#198593
 }
 
- 
-  
+.terms{
+  position: absolute;
+  width: 30vw;
+  height: 3.5vw;
+  font-size: 1.5vw;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  color: #198593;
+  top: 4.2vw;
+  left:30vw;
+  opacity: 1;
+}
 
 
+.trip{
+  position: absolute;
+  width: 25vw;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  color: #198593;
+   right: 2vw;
+  opacity: 1;
+}
 
+.ver{
+  position: absolute;
+  width: 90vw;
+  height: 75px;
+  font-size: 1.1vw;
+  font-weight: 82vw;
+  font-style: normal;
+  text-align: left;
+  color: #198593;
+  top: 6.8vw;
+  left: 1vw;
+  opacity: 1;
+}
+@media (min-width: 1240px) {
+.header {
+  display: flex;
+}
+
+.footer{
+  display: flex;
+}
+}

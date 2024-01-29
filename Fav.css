@@ -133,9 +133,9 @@
     color: #198593;
   }
   
-  .f1{
-    position: absolute;
-    top: 200vw;
+  .footer{
+    position: relative;
+    top: 35vw;
     width: 98vw;
     height: 11.7vw;
     border-color:white;
@@ -145,67 +145,71 @@
     opacity: 1;
   }
   
-  .logo1{
-    position:absolute;
-    width: 5.8vw;
-    left: 1 vw;
-    top: 200.5vw;
-    opacity: 1;
-  }
-  
-  
-  .para5{
-    position: absolute;
-    width: 9.5vw;
-    top: 200.7vw;
-    left:6vw;
-    font-size: 1.5vw;
-    color:#198593
-  }
-  
-  .terms{
-    position: absolute;
-    width: 30vw;
-    height: 3.5vw;
-    font-size: 1.5vw;
-    font-weight: 100;
-    font-style: normal;
-    text-align: left;
-    color: #198593;
-    top: 210vw;
-    left:30vw;
-    opacity: 1;
-  }
-  
-  
-  .trip{
-    position: absolute;
-    width: 25vw;
-    font-weight: 100;
-    font-style: normal;
-    text-align: left;
-    color: #198593;
-    top: 200.6vw;
-    right: 2vw;
-    opacity: 1;
-  }
-  
-  .ver{
-    position: absolute;
-    width: 90vw;
-    height: 75px;
-    font-size: 1.1vw;
-    font-weight: 82vw;
-    font-style: normal;
-    text-align: left;
-    color: #198593;
-    top: 215vw;
-    left: 1vw;
-    opacity: 1;
-  }
-  @media (min-width: 640px) {
-  .header {
-    display: flex;
-  }
-  }
+.logo1{
+  position:absolute;
+  width: 5.8vw;
+  left: 1 vw;
+  opacity: 1;
+}
+
+
+.para5{
+  position: absolute;
+  width: 9.5vw;
+  left:6vw;
+  font-size: 1.5vw;
+  color:#198593
+}
+
+.terms{
+  position: absolute;
+  width: 30vw;
+  height: 3.5vw;
+  font-size: 1.5vw;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  color: #198593;
+  top: 4.2vw;
+  left:30vw;
+  opacity: 1;
+}
+
+
+.trip{
+  position: absolute;
+  width: 25vw;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  color: #198593;
+   right: 2vw;
+  opacity: 1;
+}
+
+.ver{
+  position: absolute;
+  width: 90vw;
+  height: 75px;
+  font-size: 1.1vw;
+  font-weight: 82vw;
+  font-style: normal;
+  text-align: left;
+  color: #198593;
+  top: 6.8vw;
+  left: 1vw;
+  opacity: 1;
+}
+@media (min-width: 1240px) {
+.header {
+  display: flex;
+}
+
+.footer{
+  display: flex;
+}
+
+
+}
+
   
